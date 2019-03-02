@@ -1,0 +1,12 @@
+spring:
+    application:
+        name: config
+    cloud:
+        config:
+            server:
+                git:
+                    uri: https://github.com/daimingzhi/config.git
+                    username: daimingzhi  # 以及相应的账户名
+                    password: candy85298385  # 和密码
+server:
+    port: 10010

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: application
+  cloud:
+    config:
+      profile: master  # \u6307\u5B9A\u914D\u7F6E\u6587\u4EF6\u7684\u73AF\u5883
+      label: master
+      uri: http://localhost:10010
+server:
+  port: 10020
