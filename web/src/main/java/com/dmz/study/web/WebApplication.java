@@ -1,16 +1,13 @@
-package com.dmz.study.eurka;
+package com.dmz.study.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-/**
- * @author daimzh
- */
 @SpringBootApplication
-public class EurekaApplication {
+public class WebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(EurekaApplication.class, args);
+        SpringApplication.run(WebApplication.class, args);
     }
 
 }
