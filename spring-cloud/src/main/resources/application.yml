@@ -1,0 +1,13 @@
+server:
+  port: ${PORT:8000}
+eureka:
+  instance:
+    hostname: ${DOMAIN_NAME:server01}
+
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      # 客户端与服务端交互地址，单机情况下配置自己
+      # 如果不配置默认本机8761端口
+      defaultZone: ${EUREKA_URL:http://server02:9000/eureka}
